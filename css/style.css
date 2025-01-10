@@ -1,0 +1,183 @@
+
+:root {
+    --main-color: #009ad8 !important;
+    --seconed-color: #1e202b !important;
+    --third-color:#323544 !important;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    background-color: #1e202b;
+}
+
+.Navbar-bg
+{
+    background-color: var(--seconed-color)  !important; 
+    color: white  !important;
+}
+
+
+
+.site-title
+{
+    font-size: 1.1428571429em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.nav-logo
+{
+    text-decoration: none;
+    width: 20%;
+}
+
+.site-desc
+{
+    font-size: 0.7142857143em;
+    color: #bfc1c8;
+}
+
+
+
+
+.navbar-nav .nav-link.active
+{
+    color: var(--main-color);
+    padding: 5px 15px;
+    border: 2px var(--main-color) solid;
+    border-radius: 30px;
+}
+
+.nav-link
+{
+    padding: 5px 25px !important;
+    border: 2px transparent solid;
+    border-radius: 30px;
+    margin: 0px 15px;
+    color: white;
+}
+.nav-link:hover
+{
+    color: var(--main-color);
+    padding: 5px 25px !important;
+    border: 2px var(--main-color) solid;
+    border-radius: 30px;
+}
+
+.nav-link:focus {
+    color: white;
+    border: .5px white dashed;
+    border-radius: 30px;
+}
+.nav-link:focus.navbar-nav .nav-link.active
+{
+    color: white !important;
+}
+
+.header
+{
+    height: 50vh;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#search-input
+{
+    background-color: var(--seconed-color);
+    border: none;
+    color: white;
+}
+
+.header-search
+{
+    position: relative;
+}
+
+input[type="button"]
+{
+    padding: 10px 40px;
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+
+
+
+.today-item
+{
+    background-color: var(--third-color);
+}
+
+.today-header{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.degree-content
+{
+    font-size: 60px;
+
+}
+
+sup {
+    font-size: 75%;
+    position: relative;
+}
+sub
+{
+    top: -.5em;
+    
+}
+
+
+img[alt="degreeIcon"]
+{
+    width: 90px;
+}
+
+.temprature
+{
+    margin-bottom: 1rem;
+}
+
+
+.costem
+{
+    color: var(--main-color);
+}
+
+
+
+
+
+.next-day-item
+{
+    background-color: var(--third-color);
+}
+
+.next-day-header{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.minor-degree
+{
+    font-size: 20px;
+}
+

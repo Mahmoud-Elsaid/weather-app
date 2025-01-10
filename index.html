@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg Navbar-bg py-5 bg-danger ">
+        <div class="container">
+            <a href="" class=" nav-logo  d-flex justify-content-evenly align-items-center" >
+                <div class=" nav-logo-img">
+                    <img class=" w-100" src="img/logo.png" alt="">
+                </div>
+                <div class=" nav-logo-content">
+                    <h1 class="site-title">Weather</h1>
+                    <p class="site-desc">tagline goes here</p>
+                </div>
+            </a>
+                
+                
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live camera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="header">
+        <div class="header-search w-75 mx-auto py-5">
+            <input id="search-input" type="text" name="location" placeholder="Find you location" class=" form-control py-3 px-3  rounded-pill">
+            <div class="find-input">
+                <input type="button" name="find-input" value="Find" class="py-3 mt-5" >
+            </div>
+        </div>
+
+
+        <div class=" container">
+            <div class=" row">
+
+                <!-- today data -->
+                <!-- today data -->
+                <!-- today data -->
+
+
+                <div class=" col-md-4">
+                    <div class="  today-item text-white pb-3 ">
+                        <div class=" today-header p-2 d-flex justify-content-between align-items-center ">
+                            <div class="today-day ">
+                                
+                            </div>
+                            <div class="today-date ">
+                                <span class="dayOfMonth"></span> <span class="monthOfYear"></span>
+                            </div>
+                        </div>
+
+                        <div class="location p-3  py-4 ">
+                            <h3 class="city-location">cairo</h3>
+                        </div>
+                        
+                        <div class="px-5 py-3 degree-container d-flex justify-content-around align-items-center ">
+                            <div class="degree-content  d-flex justify-content-start align-items-center">
+                                <div class="degree">
+                                    <p class=" temprature">20</p>
+                                </div>
+                                <sup class="">o</sup>
+                                <div class="tempreture-type">
+                                    <p class="">C</p>
+                                </div>
+                            </div>
+
+                            <div class=" degree-icon">
+                                <img class="today-degree-icon" src="" alt="degreeIcon">
+                            </div>
+                        </div>
+
+                        <div class="costem px-3 py-3">
+                            <h6 class="today-weather-stuts">clear</h6>
+                        </div>
+
+                        <div class="today-weather-data d-flex justify-content-between align-items-center py-3 px-3">
+                            <div class=" today-humdity d-flex justify-content-center align-items-center">
+                                <div class="humidity-icon">
+                                    <img src="img/icon-umberella.png" class=" w-100" alt="">
+                                </div>
+                                <div class=" humidity-content pt-3 px-2">
+                                    <p class="humidity"></p>
+                                </div>
+                            </div>
+
+                            <div class=" today-wind d-flex justify-content-center align-items-center">
+                                <div class="wind-icon ">
+                                    <img src="img/icon-wind.png" class=" w-100" alt="">
+                                </div>
+                                <div class=" wind-content pt-3 px-2 ">
+                                    <p class="wind"></p>
+                                </div>
+                            </div>
+
+                            <div class=" today-dirction d-flex justify-content-center align-items-center">
+                                <div class="dirction-icon ">
+                                    <img src="img/icon-compass.png" class=" w-100" alt="">
+                                </div>
+                                <div class=" dirction-content  pt-3 px-2">
+                                    <p class="dirction"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- second day data -->
+                <!-- second day data -->
+                <!-- second day data -->
+
+
+                <div class=" col-md-4">
+                    <div class=" next-day-item text-white pb-3 ">
+                        <div class=" next-day-header p-2 d-flex justify-content-between align-items-center ">
+                            <div class="next-day-day ">
+                                
+                            </div>
+                            <div class="next-day-date ">
+                                <span class=" nextDayOfMonth"></span> <span class="nextMonthOfYear"></span>
+                            </div>
+                        </div>
+
+                        <div class=" next-day-container d-flex justify-content-center align-items-center ">
+                            <div class=" text-center">
+                                <div class="next-day-icon p-1 py-4 ">
+                                    <img class="nextDayIcon"src="img/sun.png" alt="">
+                                </div>
+                                
+                                <div class="  px-5 degree-container ">
+                                    <div class="degree-content  d-flex justify-content-start align-items-center">
+                                        <div class="degree">
+                                            <p class=" next-temprature"></p>
+                                        </div>
+                                        <sup class="">o</sup>
+                                        <div class="tempreture-type">
+                                            <p class="">C</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="  px-5  next-day-Minor-temp ">
+                                    <div class="minor-degree ms-5  d-flex justify-content-start align-items-center">
+                                        <div class="degree">
+                                            <p class=" next-minor-temprature ">20</p>
+                                        </div>
+                                        <sup class="">o</sup>
+                                        <div class="tempreture-type">
+                                            <p class="">C</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="costem py-5 mb-4 mt-1 pb-2">
+                                    <h6 class="nextday-weather-stuts">clear</h6>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        
+
+                        
+
+                    </div>
+                </div>
+
+
+                <!-- third day data -->
+                <!-- third day data -->
+                <!-- third day data -->
+
+
+                <div class=" col-md-4">
+                    <div class=" next-day-item text-white pb-3 ">
+                        <div class=" next-day-header p-2 d-flex justify-content-between align-items-center ">
+                            <div class="next-day-day ">
+                                
+                            </div>
+                            <div class="next-day-date ">
+                                <span class=" nextDayOfMonth"></span> <span class="nextMonthOfYear"></span>
+                            </div>
+                        </div>
+
+                        <div class=" next-day-container d-flex justify-content-center align-items-center ">
+                            <div class=" text-center">
+                                <div class="next-day-icon p-1 py-4 ">
+                                    <img class="nextDayIcon " src="img/sun.png" alt="">
+                                </div>
+                                
+                                <div class="  px-5 degree-container ">
+                                    <div class="degree-content  d-flex justify-content-start align-items-center">
+                                        <div class="degree">
+                                            <p class=" next-temprature"></p>
+                                        </div>
+                                        <sup class="">o</sup>
+                                        <div class="tempreture-type">
+                                            <p class="">C</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="  px-5  next-day-Minor-temp ">
+                                    <div class="minor-degree ms-5  d-flex justify-content-start align-items-center">
+                                        <div class="degree">
+                                            <p class=" next-minor-temprature">20</p>
+                                        </div>
+                                        <sup class="">o</sup>
+                                        <div class="tempreture-type">
+                                            <p class="">C</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="costem py-5 mb-4 mt-1 pb-2">
+                                    <h6 class="nextday-weather-stuts">clear</h6>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        
+
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
